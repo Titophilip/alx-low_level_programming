@@ -1,20 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - prints the size of variou data type
  * Return:0 when code runs perfectly
  */
-int main(void) 
+int main(void)
 {
 	char charType;
 	int intType;
-	long int longintType;
-	long long int longlongintType;
+	long int liType;
+	long long int lliType;
 	float floatType;
-	
-	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
-	printf("Size of an int: %zu byte(s)\n", sizeof(intType));
-	printf("Size of a long int: %zu byte(s)\n", sizeof(longintType));
-	printf("Size of a long long int: %zu byte(s)\n", sizeof(longlongintType));
-	printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
+
+	printf("Size of a char: %d byte(s)\n", sizeof(charType));
+	printf("Size of an int: %d byte(s)\n", sizeof(intType));
+	printf("Size of a long int: %d byte(s)\n", sizeof(liType));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(lliType));
+	printf("Size of a float: %d byte(s)\n", sizeof(floatType));
 	return (0);
 }
