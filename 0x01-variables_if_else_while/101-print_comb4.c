@@ -3,7 +3,7 @@
  * main - Get unique three-digit combinations of numbers between 0-9
  * Return: 0 if successful
  */
-int main()
+int main(void)
 {
 	int i, j, k;
 
