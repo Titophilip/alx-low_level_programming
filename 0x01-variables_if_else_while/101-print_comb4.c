@@ -5,13 +5,13 @@
  */
 int main()
 {
-	int a, b, c;
+	int i, j, k;
 
-	for (int i = 0; i <= 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (int j = i + 1; j <= 9; j++)
+		for (j = i + 1; j <= 9; j++)
 		{
-			for (int k = j + 1; k <= 9; k++)
+			for (k = j + 1; k <= 9; k++)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
