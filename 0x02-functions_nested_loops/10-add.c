@@ -1,7 +1,5 @@
 #include "main.h"
 /**
- * main - check the code
- *
  * add - The function that adds the integers.
  *
  * @a: The first integer to be added.
