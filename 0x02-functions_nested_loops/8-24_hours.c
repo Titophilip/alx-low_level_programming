@@ -4,9 +4,10 @@
  *
  *Return: void.
  */
-void jack_bauer(void) 
+void jack_bauer(void)
 {
 	int hour, minute;
+
 	for (hour = 0; hour <= 23; hour++)
 	{
 		for (minute = 0; minute <= 59; minute++)
