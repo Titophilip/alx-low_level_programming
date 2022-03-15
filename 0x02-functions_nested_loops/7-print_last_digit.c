@@ -3,7 +3,7 @@
  * print_last_digit - print last
  * digits of a given number n
  *
- * @n - parameter to be tested
+ * @n: parameter to be tested
  *
  * Return: 0
  */
