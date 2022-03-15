@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *times_table - 9 times table
+ *print_times_table - 9 times table
  *
  * @n: Number to be multiplied up to.
  *
@@ -10,10 +10,8 @@
 void print_times_table(int n)
 {
 	int i, j, product;
-	if (n < 0 || n > 15)
+	if (n >= 0 || n <= 15)
 	{
-		return (0);
-	} else {
 		for (i = 0; i < n; i++)
 		{
 			for (j = 0; j < n; j++)
