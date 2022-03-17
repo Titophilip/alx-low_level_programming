@@ -2,7 +2,7 @@
 /**
  * main - prints the fizzbuzz classification
  *
- * return - always zero (0)
+ * return: nothing
  *
  */
 int main(void)
@@ -31,5 +31,4 @@ int main(void)
 			printf("%d ", i);;
 		}
 	}
-	return (0);
 }
