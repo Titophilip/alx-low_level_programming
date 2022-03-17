@@ -2,6 +2,7 @@
 /**
  * _isdigit - this function checks if
  * the input is a digit or not
+ * 
  * @c: c is the input tested
  *
  * Return: 1 if c is a digit
